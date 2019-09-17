@@ -23,11 +23,15 @@ Open this project in your IDE using "clone" or download ZIP with entire project
 There are some constants in this project used for naming all files that we need
 
 In class CSVReaderWithAutoHeader:
+
 CSV_FILE_INPUT - this CSV is an input and located in project folder, named by default "info.csv"
+
 CSV_FILE_BAD_DATA - this is an output CSV with bad data, named "bad-data" + timestamp
 
 In class DatabaseManager:
+
 URL_TO_FILE_DIRECTORY - url to the folder where will be created SQLite DB, by default it will be created in project folder
+
 DB_NAME - name of the SQLite DB file
 
 After creating DB, we also create a table, it's name is "csv_imported_data" and is hardcoded (feel free to change it if you need)
