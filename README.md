@@ -11,6 +11,7 @@ Build #IU-192.5728.98, built on July 23, 2019
 ### Prerequisites
 
 Apache Commons CSV lib was used in this project, it is in dependency list.
+
 Also you'll need SQLite JDBC Drivers - "sqlite-jdbc-3.27.2.1.jar" was used in this project, it is included in project folder
 
 ### Installing
